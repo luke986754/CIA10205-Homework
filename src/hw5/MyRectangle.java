@@ -13,8 +13,9 @@ public class MyRectangle {
 			this.depth = depth;
 	}
 	
-	public void getArea() {
-		System.out.print( width*depth);
+	public double getArea() {
+		double area =  width*depth;
+		return area;
 	}
 	
 	public MyRectangle() {};

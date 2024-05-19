@@ -7,14 +7,14 @@ public class MyRectangleMain {
 		mr.setWidth(10);
 		mr.setDepth(20);
 		
-		mr.getArea();
+		System.out.println(mr.getArea());
 		System.out.println();
 
 	
 //	//帶參數建構子
 
 		MyRectangle mr2 = new MyRectangle(10,20);
-		mr2.getArea();
+		System.out.println(mr2.getArea());
 		
 	}
 
